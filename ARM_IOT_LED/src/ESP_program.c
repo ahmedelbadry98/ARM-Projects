@@ -1,9 +1,3 @@
-/***************************************************************************************/
-/****************************  IMT School Training Center ******************************/
-/***************************************************************************************/
-/** This file is developed by IMT School training center, All copyrights are reserved **/
-/***************************************************************************************/
-
 #include "STD_TYPES.h"
 #include "BIT_MATH.h"
 
@@ -131,7 +125,7 @@ u8   ESP8266_u8ReceiveHttpReq( u8 * Copy_u8ChannelID , u8 * Copy_u8Length ){
 
 	ESP8266_VidConnectToSrvTcp( (u8 *)"162.253.155.226" , (u8 *)"80" );
 
-	/*For yrabiot3.freevar.com ( Value Array Index )*/
+	/*For ahmed98x.freevar.com ( Value Array Index )*/
 	return  DataCome[82] ;
 
 }
